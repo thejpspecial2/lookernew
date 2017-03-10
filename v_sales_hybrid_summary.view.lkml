@@ -1,5 +1,5 @@
 view: v_sales_hybrid_summary {
-  sql_table_name: public.v_sales_hybrid_summary ;;
+  sql_table_name: apple.v_sales_hybrid_summary ;;
 
   dimension_group: begin {
     type: time
