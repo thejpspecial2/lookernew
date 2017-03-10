@@ -33,7 +33,7 @@ view: v_sales_hybrid_summary {
   measure: revenue {
     type: sum
     sql: ${TABLE}.revenue ;;
-    value_format: "$#.00;($#.00)"
+    value_format: "$#,##0.00"
   }
 
   dimension: sku {
